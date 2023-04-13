@@ -1,4 +1,4 @@
-# Companion repository for **Quantifying and combining uncertainty for improving the behavior of Digital Twins**
+# Companion repository for "*Quantifying and combining uncertainty for improving the behavior of Digital Twins*"
 
 ## Overview
 This is the GitHub repository for the code accompanying our paper on uncertainty-aware Digital Twins for adaptive systems. Uncertainty is an inherent property of any complex system, and our approach proposes an explicit representation of the sources of uncertainty of both the system and the models by means of random variables, making uncertainty a first-class citizen. 
