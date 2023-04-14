@@ -155,7 +155,7 @@ public class MitigatedControlComparisonsRun extends SimulationConstants {
         /**
          * manage results
          */
-        PlotHelper.plotResults(Arrays.asList("T Measurand ", "T Classical", "T Mitigated", "Control Measurand", "Control Classical", "Control Mitigated"),
+        PlotHelper.plotResults(Arrays.asList("t GT ", "t PT", "t MDTS", "ctrl GT", "ctrl PT", "ctrl MDTS"),
                 allTimeStamps,
                 allBoxTemperaturesPhysicalPlantPerfect,
                 allBoxTemperaturesPhysicalPlantClassical,

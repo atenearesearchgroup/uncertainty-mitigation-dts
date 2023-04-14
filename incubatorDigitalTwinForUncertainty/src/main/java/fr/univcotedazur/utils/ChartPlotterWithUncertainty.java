@@ -100,8 +100,8 @@ import org.jfree.ui.RectangleInsets;
 
             DeviationRenderer renderer = new DeviationRenderer(true, false);
             for(int sc = 0; sc < dataset.getSeriesCount(); sc++) {
-                renderer.setSeriesStroke(sc, new BasicStroke(1.0f, BasicStroke.CAP_ROUND,
-                        BasicStroke.JOIN_ROUND, 1.0f, new float[] {dasheStyles.get(sc%3), 2.0f}, 0.0f));
+                renderer.setSeriesStroke(sc, new BasicStroke(1.6f, BasicStroke.CAP_ROUND,
+                        BasicStroke.JOIN_ROUND));//, 1.0f, new float[] {dasheStyles.get(sc%3), 4.0f}, 0.0f));
                 renderer.setSeriesPaint(sc, allColors.get(sc));
                 renderer.setSeriesFillPaint(sc, allColors.get(sc));
             }

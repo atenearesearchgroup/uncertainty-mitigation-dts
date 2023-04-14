@@ -85,7 +85,7 @@ public class ModelPlantControlComparisonsRun extends SimulationConstants {
 
 
 
-        PlotHelper.plotResults(Arrays.asList("T Measurand", "T Classical", "T Uncertainty", "control Measurand", "control Classical", "control Uncertainty"),
+        PlotHelper.plotResults(Arrays.asList("t GT", "t DT", "t UADT", "ctrl GT", "ctrl DT", "ctrl UADT"),
                 allTimeStamps,
                 allBoxTemperaturesModelPlantPerfect,
                 allBoxTemperaturesModelPlantClassical,
