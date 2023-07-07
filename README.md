@@ -128,5 +128,3 @@ To use this project, follow these steps:
 3. Run the main files of the comparisons to execute specific evaluations and obtain the results presented in the research paper.
 
 4. After running a specific comparison, it will show a graphic with the results for the different models involved.
-=======
->>>>>>> 2a0e53abf78e8c60ef8759c9e985442e88f9845a
