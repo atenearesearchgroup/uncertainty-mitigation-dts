@@ -28,7 +28,7 @@
             <manifest>
               <addClasspath>true</addClasspath>
               <classpathPrefix>libs/</classpathPrefix>
-              <mainClass>fr.univcotedazur.MitigatedControlFailureComparisonRun</mainClass>
+              <mainClass>fr.univcotedazur.comparison.to.eachothers.MitigatedControlFailureComparisonRun</mainClass>
             </manifest>
           </archive>
         </configuration>
@@ -44,7 +44,7 @@
               <shadedArtifactAttached>true</shadedArtifactAttached>
               <transformers>
                 <transformer>
-                  <mainClass>fr.univcotedazur.MitigatedControlFailureComparisonRun</mainClass>
+                  <mainClass>fr.univcotedazur.comparison.to.eachothers.MitigatedControlFailureComparisonRun</mainClass>
                 </transformer>
               </transformers>
             </configuration>
@@ -54,8 +54,8 @@
     </plugins>
   </build>
   <properties>
-    <maven.compiler.target>18</maven.compiler.target>
-    <maven.compiler.source>18</maven.compiler.source>
+    <maven.compiler.target>21</maven.compiler.target>
+    <maven.compiler.source>21</maven.compiler.source>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
 </project>

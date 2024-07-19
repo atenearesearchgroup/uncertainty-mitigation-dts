@@ -1,10 +1,9 @@
 # Companion repository for "*Quantifying and combining uncertainty for improving the behavior of Digital Twins*"
 
 ## Overview
-This is the GitHub repository for the code accompanying our paper on uncertainty-aware Digital Twins for adaptive systems. Uncertainty is an inherent property of any complex system, and our approach proposes an explicit representation of the sources of uncertainty of both the system and the models by means of random variables, making uncertainty a first-class citizen. 
+This is the GitHub repository for the code accompanying our paper on uncertainty-aware Digital Twins for adaptive systems. Uncertainty is an inherent property of any complex system, and our approach proposes an explicit representation of the sources of uncertainty of both the system and the models by means of random variables, making uncertainty a first-class citizen.
 
 This allows for a more accurate comparison of the behaviors of the physical system and the digital twin, assessing their validity and determining when they are consistent or diverge. Our proposed approach is illustrated and validated through an exemplary incubator system. This repository contains the code used to implement and test our proposed approach.
-<<<<<<< HEAD
 
 ## Requirements and Installation
 
@@ -26,7 +25,8 @@ This allows for a more accurate comparison of the behaviors of the physical syst
 - Choose _Existing Maven Projects_ and click _Next_.
 - Browse to the project directory (_incubatorDigitalTwinForUncertainty_) and click _Finish_.
 
-3. Eclipse will automatically resolve and download the Maven dependencies specified in the pom.xml file. 
+3. Eclipse will automatically resolve and download the Maven dependencies specified in the pom.xml file.
+
 
 4. Once the dependencies are successfully downloaded, you can run the desired files in Eclipse:
 
