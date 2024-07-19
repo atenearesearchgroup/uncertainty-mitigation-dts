@@ -101,7 +101,7 @@ public class PhysicalPlantControlComparisonsForZoom extends SimulationConstants 
         /**
          * manage results
          */
-        ChartPlotterWithUncertainty plotter = PlotHelper.plotResults(Arrays.asList("t GT", "t PT", "ctrl GT", "ctrl PT"),
+        ChartPlotterWithUncertainty plotter = PlotHelper.plotResults(Arrays.asList("T Measurand", "T Classical", "T Uncertainty", "Control Measurand", "Control Classical", "Control Uncertainty"),
                 allTimeStamps,
                 allBoxTemperaturesPhysicalPlantPerfect,
                 allBoxTemperaturesPhysicalPlantClassical,

@@ -79,7 +79,6 @@ public class PhysicalPlantControlComparisonsRun extends SimulationConstants {
             boxTemperaturePhysicalPlantClassical = resPhysicalPlantClassical.boxTemperature;
             if(time% ControlPERIOD < timeStep) {
                 heaterStatePhysicalPlantClassical = controllerClassical.doStep(time, boxTemperaturePhysicalPlantClassical.getX());
-                boxTemperaturePhysicalPlantClassical.setU(0);
                 allBoxTemperaturesPhysicalPlantClassical.add(boxTemperaturePhysicalPlantClassical);
                 allHeaterStatePhysicalPlantClassical.add(heaterStatePhysicalPlantClassical ? new UReal(20, 0) : new UReal(10, 0));
             }
@@ -108,7 +107,7 @@ public class PhysicalPlantControlComparisonsRun extends SimulationConstants {
         /**
          * manage results
          */
-        PlotHelper.plotResults(Arrays.asList("t GT", "t PT", "t UAPT", "ctrl GT", "ctrl PT", "ctrl UAPT"),
+        PlotHelper.plotResults(Arrays.asList("T Measurand", "T Classical", "T Uncertainty", "Control Measurand", "Control Classical", "Control Uncertainty"),
                 allTimeStamps,
                 allBoxTemperaturesPhysicalPlantPerfect,
                 allBoxTemperaturesPhysicalPlantClassical,

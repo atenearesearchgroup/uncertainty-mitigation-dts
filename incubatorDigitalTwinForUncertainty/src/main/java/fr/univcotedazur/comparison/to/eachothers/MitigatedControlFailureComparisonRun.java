@@ -166,7 +166,6 @@ public class MitigatedControlFailureComparisonRun extends SimulationConstants {
                 allBoxTemperaturesMitigated.add(boxTemperatureMitigated);
                 allHeaterStatePhysicalPlantForMitigation.add(heaterStateMitigated?new UReal(20,0):new UReal(10,0));
 
-                boxTemperaturePhysicalPlantClassical.setU(0);
                 allBoxTemperaturesPhysicalPlantClassical.add(boxTemperaturePhysicalPlantClassical);
                 allHeaterStatePhysicalPlantClassical.add(heaterStatePhysicalPlantClassical?new UReal(20,0):new UReal(10,0));
 
@@ -180,7 +179,7 @@ public class MitigatedControlFailureComparisonRun extends SimulationConstants {
         /**
          * manage results
          */
-        PlotHelper.plotResults(Arrays.asList("t GT", "t PT", "t MDTS", "ctrl GT", "ctrl PT", "ctrl MDTS"),
+        PlotHelper.plotResults(Arrays.asList("T Measurand", "T Classical", "T Mitigated", "Control Measurand", "Control Classical", "Control Mitigated"),
                 allTimeStamps,
                 allBoxTemperaturesPhysicalPlantPerfect,
                 allBoxTemperaturesPhysicalPlantClassical,

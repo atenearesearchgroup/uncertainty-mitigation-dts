@@ -27,6 +27,7 @@ This allows for a more accurate comparison of the behaviors of the physical syst
 
 3. Eclipse will automatically resolve and download the Maven dependencies specified in the pom.xml file.
 
+
 4. Once the dependencies are successfully downloaded, you can run the desired files in Eclipse:
 
 - Navigate to the file you want to execute.
@@ -45,7 +46,7 @@ incubatorDigitalTwinForUncertainty
 └── src
     ├── main.java.fr.univcotedeazur
     │    ├── SimulationConstants.java
-    │    ├── comparison.to
+    │    ├── comparison.to 
     │    │    ├── eachother
     │    │    │   ├── MitigatedCon trolComparisonsRun.java
     │    │    │   ├── MitigatedControlFailureComparisonRun.java
@@ -82,7 +83,7 @@ The repository consists of the following key components:
 
 - `dependency-reduced-pom.xml`: The reduced version of the POM file that excludes unnecessary dependencies.
 - `pom.xml`: The Maven Project Object Model (POM) file that contains the project configuration and dependencies.
-- `src`:
+- `src`: 
   - `main.java.fr.univcotedeazur`: This package includes all the main files with the comparisons between different models and measurands in a set of scenarios.
     - `SimulationConstants.java`: A Java file containing the simulation constants shared by all the comparisons in this package.
     - `comparison.to`
